@@ -1,0 +1,180 @@
+body{
+  background-color: #d6d6d6;
+  margin-bottom: 100px;
+}
+
+ul {
+list-style-type: none;
+margin:0;
+padding: 0;
+text-align: center;
+}
+
+nav{
+  margin-bottom: 50px;
+  min-width: 1300px;
+}
+
+ li:hover{
+   background-color: #bb98e7;
+ }
+
+li{
+   display: inline-block;
+   margin: auto;
+   margin-left: 10px;
+   margin-right: 10px;
+   padding:10px 45px 10px 45px;
+   padding-top: 1.3rem;
+   background-color: #863bab;
+   color: black;
+   width:200px;
+   height: 30px;
+   font-size: 12pt;
+   font-family: sans-serif;
+   text-align: center;
+   border-radius: 10px;
+   font-family: Montserrat, sans-serif;
+   font-weight: bold;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+
+.title{
+  text-align: center;
+  width: 700px;
+  height: 50px;
+  margin: auto;
+  font-family: Montserrat, sans-serif;
+  padding: 50px 100px 50px 100px;
+  border-radius: 15px;
+  margin-bottom: 50px;
+  color: black;
+  font-size: 30pt;
+}
+
+iframe{
+  text-align: center;
+  margin: auto;
+  margin-bottom: 100px;
+  padding:0;
+  width: 1120px;
+  height: 630px;
+  display: block;
+  }
+
+/* div for row of bubbles(circle images) */
+.bubbles{
+  display: block;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+ /* div for image in circle in home page  */
+.image{
+  display: inline-block;
+  padding: 75px;
+  margin: auto;
+  transition: transform .2s
+}
+
+/* container for image and text explaining it */
+.container{
+  text-align: center;
+  display: inline-block;
+  margin: auto;
+}
+
+/* div for aligning image to the left */
+.imageL{
+  margin: 0px 20px 10px 20px;
+  float: left;
+}
+
+/* div for aligning image to the right */
+.imageR{
+  margin: 0px 20px 10px 20px;
+  float: right;
+}
+
+/*class to help define the layout of the more about pages*/
+.layout{
+  margin-bottom: 100px;
+  margin: 25px 100px 25px 100px;
+}
+
+p{
+  font-size: 20pt;
+  text-align: justify;
+  margin: 50px;
+  font-family: Montserrat, sans-serif;
+}
+
+h2{
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+}
+
+
+.image:hover {
+  transform: scale(1.25);
+}
+
+
+#overlay{
+  position: fixed;
+  display: none;
+  background-color: rgba(0,0,0,0.90);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+}
+
+button{
+  text-align: center;
+  background-color: #863bab;
+  color: black;
+  padding: 20px;
+  font-family: Montserrat, sans-serif;
+  font-size: 20pt;
+  border: none;
+  cursor: pointer;
+  }
+
+.button{
+  margin: auto;
+  text-align: center;
+  display: block;
+  margin-bottom: 50px
+}
+
+button:hover{
+  background-color: #bb98e7;
+}
+
+
+.x{
+  text-align: center;
+  color: white;
+  font-family: Montserrat, sans-serif;
+  float: right;
+  font-size: 25pt;
+  padding-right: 30px;
+  cursor: pointer;
+}
+
+.text{
+  color: white;
+  font-size: 20pt;
+  font-family: Montserrat, sans-serif;
+  float: right;
+  margin-top: 250px;
+  text-align: center;
+}
